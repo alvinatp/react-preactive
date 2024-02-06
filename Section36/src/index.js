@@ -6,10 +6,11 @@ import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <div>
-    <h1>Hello</h1>
-  </div>
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 );
+
 ReactDOM.render(
   <div>
     <h1>Hello</h1>
