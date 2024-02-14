@@ -3,7 +3,7 @@ import React from "react";
 // Interface for customization options
 interface TitleProps {
   text: string;
-  size?: string; // Optional: Title size (e.g., 'h1', 'h2', 'h3')
+  size: "100px"; // Optional: Title size (e.g., 'h1', 'h2', 'h3')
   // Add more customization options as needed
 }
 
