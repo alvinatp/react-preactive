@@ -7,6 +7,11 @@ interface TitleProps {
   // Add more customization options as needed
 }
 
+const customStyle = {
+  color: "red",
+  fontSize: "20px",
+};
+
 const Title: React.FC<TitleProps> = ({ text, size = "h1" }) => {
   const colorList = ["#f00", "#00f", "#ff0", "#0f0", "#f0f"]; // Array of vibrant colors
   const [currentColor, setCurrentColor] = React.useState(colorList[0]); // State for current color
